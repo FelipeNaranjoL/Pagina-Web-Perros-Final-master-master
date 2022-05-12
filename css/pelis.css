@@ -80,8 +80,8 @@ img{
 h2{
     text-align: center;
     background-color: rgb(233, 233, 233);
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 1px;
+    padding-right: 1px;
     padding-top: 40px;
     padding-bottom: 89px;
     font-size: 20px;
