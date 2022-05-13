@@ -1,9 +1,42 @@
 html{height: 100%;}
+body{
+    background: url(/img/fondo.jpg)
+}
+li{
+    list-style-type: none;
+    
+}
+li a{
+    font-size: 30px;
+    padding: 23px;
+    background-color: rgba(31, 98, 187, 0.774);
+    color: rgb(255, 255, 255);
+    float: left;
+    text-decoration: none;
+}
+
+a:hover{
+    color: purple;
+    background-color: rgb(243, 243, 243);
+}
+
+a:active{
+    background-color: black;
+}
+
+/* ------------------------------------------------------------------- */
+
+.titulo{
+    font-size: 50px;
+    text-align: right;
+    padding: 15px;
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(#7209b7,#3f37c0);
 }
 
 .contenedor{
